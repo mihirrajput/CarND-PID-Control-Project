@@ -1,0 +1,25 @@
+PID tuning:
+
+I performed manual tuning of the PID controller.
+
+Proportional Gain: 
+
+Output of the proportional control is proportional to the cross track error.
+Higher the error, harder the car is turned towards the desired trajectory.
+If the gain is high then the oscillations are massive. On the other hand if the gain is low
+the response time of the system could be poor.
+Frankly, the simulation works with 0 proportional gain.
+This definitely won't be a realistic solution in real world.
+
+Derivative Gain:
+
+Output of the derivative control acts opposite to that of proportional control.
+It has a resistance effect and tends to reduce the oscillations.
+Higher the gain, slower the response time of the system.
+
+Integral Gain:
+
+If there is a system bias, the only way to reduce it is by introducing the integral
+controller. It reduces the offset. Higher the gain, more unstable the system becomes.
+
+Kp 0.21, Kd 3.5, Ki 0.1
