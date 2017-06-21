@@ -23,3 +23,5 @@ If there is a system bias, the only way to reduce it is by introducing the integ
 controller. It reduces the offset. Higher the gain, more unstable the system becomes.
 
 Kp 0.21, Kd 3.5, Ki 0.1
+
+https://youtu.be/Q0qvGZ8Ew5w
